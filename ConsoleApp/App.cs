@@ -63,6 +63,7 @@ namespace ConsoleApp
             Console.WriteLine("Thank you for banking with AwesomeGIC Bank!");
             Console.WriteLine("Have a nice day!");
             SessionEnded = true;
+            Console.ReadKey();
         }
     }
 }
